@@ -133,7 +133,7 @@ def input_tools():
     import datetime
     from PIL import Image
     import os
-    os.chdir(r'C:\Users\Tracy\Desktop\2024寒假\科研\01.18Python-streamlit')  # 设定文件路径
+    # os.chdir(r'C:\Users\Tracy\Desktop\2024寒假\科研\01.18Python-streamlit')  # 设定文件路径
 
     ## button函数【将展示可以点击的按钮】
     # 如果按钮点击，则展示hello there
@@ -198,9 +198,9 @@ def input_tools():
     ## color_picker【颜色选择】
     color = st.color_picker('Pick A Color', '#00f900')
     st.write('The current color is', color)
-    # image【展示图片】
-    image = Image.open('任务分配.png')
-    st.image(image, caption='Sunrise by the mountains')
+    # # image【展示图片】
+    # image = Image.open('任务分配.png')
+    # st.image(image, caption='Sunrise by the mountains')
     # ## audio【展示音频】
     # audio_file = open('myaudio.ogg', 'rb')
     # audio_bytes = audio_file.read()
